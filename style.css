@@ -1,0 +1,72 @@
+/*
+Theme Name: SD Child
+Theme URI: http://thefragens.com
+GitHub Theme URI: https://github.com/afragen/sd-child
+Description: Child Theme for twentyten
+Author: afragen
+Author URI: http://thefragens.com
+Template: twentyten
+Version: 0.3
+*/
+ 
+@import url("../twentyten/style.css");
+
+#content p,
+#content ul,
+#content ol,
+#content dd,
+#content pre,
+#content hr {
+	margin-bottom:14px;
+}
+
+pre {
+  padding:0.75em;
+}
+
+.entry-content p img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 6px 6px -6px;
+  padding: 4px;
+  -webkit-box-shadow: 3px 3px 3px #666;
+  -moz-box-shadow: 3px 3px 3px #666;
+}
+
+p img.wp-smiley {
+  display: inline;
+  position: auto;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+#content code {
+  color: red;
+}
+
+/* iPad [portrait + landscape] and iPhone [portrait + landscape] */
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+	.syntaxhighlighter.bash, .syntaxhighlighter.applescript { font-size: 0.6em !important; }
+	.syntaxhighlighter .gutter { font-size: 1.8em !important; }
+	.syntaxhighlighter .gutter .line { line-height: 1.4em !important; }
+}
+
+
+/* iPad [portrait + landscape] */
+@media only screen and (device-width: 768px) {
+#content code {
+  font-size: 0.6em;
+}
+
+/* iPhone [portrait + landscape] */
+/*@media only screen and (max-device-width: 480px) {
+#content code {
+  font-size: 0.6em;
+}
+}*/
