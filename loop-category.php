@@ -135,7 +135,7 @@
 			</div><!-- .entry-meta -->
 
 	<?php if ( is_archive() || is_search() ) : // Only display excerpts for archives and search. ?>
-			<div class="entry-summary">
+			<div class="entry-content">
 				<?php the_content(); ?>
 			</div><!-- .entry-summary -->
 	<?php else : ?>
