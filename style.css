@@ -6,7 +6,7 @@ Description: Child Theme for twentyten
 Author: afragen
 Author URI: http://thefragens.com
 Template: twentyten
-Version: 0.3.2
+Version: 0.3.3
 */
  
 @import url("../twentyten/style.css");
@@ -24,7 +24,7 @@ pre {
   padding:0.75em;
 }
 
-.entry-content p img {
+.entry-content img {
   display: block;
   position: relative;
   background-color: #fff;
