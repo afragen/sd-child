@@ -1,12 +1,13 @@
 /*
-Theme Name: SD Child
-Theme URI: http://thefragens.com
+Theme Name:       SD Child
+Theme URI:        http://thefragens.com
+Description:      Child Theme for twentyten
+Author:           afragen
+Author URI:       http://thefragens.com
+Template:         twentyten
+Version:          0.3.3
 GitHub Theme URI: https://github.com/afragen/sd-child
-Description: Child Theme for twentyten
-Author: afragen
-Author URI: http://thefragens.com
-Template: twentyten
-Version: 0.3.3
+GitHub Branch:    develop
 */
  
 @import url("../twentyten/style.css");
