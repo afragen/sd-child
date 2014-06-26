@@ -2,4 +2,4 @@
 
 #### 0.3.4
 
-* add automatic link to Twitter names
+* removed code in functions.php to own plugin

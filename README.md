@@ -1,4 +1,4 @@
 sd-child
 ========
 
-TwentyTen child theme for thefragens.com
+TwentyFourteen child theme for thefragens.com
