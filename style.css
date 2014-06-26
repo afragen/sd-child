@@ -1,15 +1,18 @@
 /*
-Theme Name: SD Child
-Theme URI: http://thefragens.com
+Theme Name:       SD Child
+Theme URI:        http://thefragens.com
+Description:      Child Theme for twentyfourteen
+Author:           afragen
+Author URI:       http://thefragens.com
+Template:         twentyfourteen
+Version:          0.3.4
 GitHub Theme URI: https://github.com/afragen/sd-child
-Description: Child Theme for twentyten
-Author: afragen
-Author URI: http://thefragens.com
-Template: twentyten
-Version: 0.3.3
+GitHub Branch:    develop
 */
  
-@import url("../twentyten/style.css");
+@import url("../twentyfourteen/style.css");
+
+/*
 
 #content p,
 #content ul,
@@ -23,6 +26,8 @@ Version: 0.3.3
 pre {
   padding:0.75em;
 }
+
+*/
 
 .entry-content img {
   display: block;
@@ -46,27 +51,34 @@ p img.wp-smiley {
   -moz-box-shadow: none;
 }
 
-#content code {
-  color: red;
-}
+
+/* 
+#content code { color: red; }
+ */
 
 /* iPad [portrait + landscape] and iPhone [portrait + landscape] */
+/* 
 @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
 	.syntaxhighlighter.bash, .syntaxhighlighter.applescript { font-size: 0.6em !important; }
 	.syntaxhighlighter .gutter { font-size: 1.8em !important; }
 	.syntaxhighlighter .gutter .line { line-height: 1.4em !important; }
 }
+ */
 
 
 /* iPad [portrait + landscape] */
+/* 
 @media only screen and (device-width: 768px) {
 #content code {
   font-size: 0.6em;
 }
+ */
 
 /* iPhone [portrait + landscape] */
 /*@media only screen and (max-device-width: 480px) {
 #content code {
   font-size: 0.6em;
 }
-}*/
+}
+*/
+
